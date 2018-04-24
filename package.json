@@ -58,7 +58,7 @@
     "prettier": "1.12.1"
   },
   "lint-staged": {
-    "*.{js,json,css,md}": ["prettier --write", "git add"]
+    "*.{js,json,css,md}": ["eslint --fix", "git add"]
   },
   "jest": {
     "collectCoverageFrom": ["src/**/*.{js,jsx,mjs}"],
@@ -94,11 +94,11 @@
   },
   "eslintConfig": {
     "parser": "babel-eslint",
-    "extends": ["prettier", "react-app"],
-    "plugins": ["prettier"],
+    "extends": ["prettier"],
+    "plugins": ["prettier", "import", "flowtype", "jsx-a11y", "react"],
     "rules": {
       "prettier/prettier": [
-        "error",
+        "warn",
         {
           "singleQuote": true,
           "semi": false
