@@ -58,7 +58,7 @@
     "prettier": "1.12.1"
   },
   "lint-staged": {
-    "*.{js,json,css,md}": ["eslint --fix", "git add"]
+    "*.{js,css,md}": ["eslint --fix", "git add"]
   },
   "jest": {
     "collectCoverageFrom": ["src/**/*.{js,jsx,mjs}"],
