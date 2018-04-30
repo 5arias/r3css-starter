@@ -16,7 +16,7 @@ const mapDispatchToProps = dispatch => {
   }
 }
 
-class Home extends Component {
+export class Home extends Component {
   componentDidMount() {
     this.props.updateContent(
       'To get started, edit this content in src/containers/home.'
