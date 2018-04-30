@@ -57,7 +57,8 @@
     "postcss-cssnext": "^3.1.0",
     "postcss-import": "^11.1.0",
     "postcss-nested": "^3.0.0",
-    "prettier": "1.12.1"
+    "prettier": "1.12.1",
+    "react-hot-loader": "^4.1.2"
   },
   "lint-staged": {
     "src/**/*.{js,json}": [
