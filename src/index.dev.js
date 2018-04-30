@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { hot } from 'react-hot-loader'
+import { Provider } from 'react-redux'
 
-import App from './App'
+import { configureStore } from './redux/store'
+import { App } from './containers/app'
 import './index.css'
 
-const HotApp = hot(module)(App)
+const store = configureStore()
 
-ReactDOM.render(<HotApp />, document.getElementById('root'))
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+)
