@@ -53,7 +53,7 @@ Linting also happens automatically via pre-commit git hooks
 * [PostCSS](https://github.com/postcss) - Next generation CSS features
 * [Prettier](https://prettier.io/) - Standardized code styling and linting
 
-### Based on `Create React App`
+### Based on Create React App
 
 This application is based on ejected `create-react-app` application and modified to fit my personal style and needs.<br />
 You can view the full CRA documentation at [https://github.com/facebook/create-react-app](https://github.com/facebook/create-react-app)
