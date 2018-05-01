@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Home } from '../home'
 import css from './App.css'
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <Router>
